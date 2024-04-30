@@ -1,4 +1,5 @@
-let twitter = {
+let twitter = [
+ {
     "created_at":"Thu Apr 14 01:24:32 +0000 2023",
     "id": 1234567890123456789,
     "text": "This is a tweet from user sin.",
@@ -19,15 +20,8 @@ let twitter = {
     "retweeted": false,
     "favorited": false
   }
-// console.log(twitter);
-// console.log(twitter.created_at);
-// console.log(twitter.id);
-// console.log(twitter.text);
-// console.log(twitter.user);
-// console.log(twitter.user.id);
-// console.log(twitter.user.name);
-// console.log(twitter.user.screen_name);
-// console.log(twitter.user.location);
-// for(propty of twitter){
-//   console.log(propty);
-// }
+]
+
+for (let key of twitter) {
+  console.log(key);
+}

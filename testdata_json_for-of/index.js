@@ -1,4 +1,5 @@
-let testdata = {
+let testdata =[
+ {
     "user": {
       "name": "John Doe",
       "age": 30,
@@ -18,6 +19,7 @@ let testdata = {
     ],
     "total": 69.97
   }
+]
   
 //   console.log(testdata);
 // console.log(testdata.user);
@@ -26,6 +28,7 @@ let testdata = {
 // console.log(testdata.user.email);
 // console.log(testdata.products);
 
-// for(propty in testdata){
-//   console.log(propty);
-// }
+for(propty in testdata){
+  console.log(propty)
+  console.log(testdata[propty]);
+}

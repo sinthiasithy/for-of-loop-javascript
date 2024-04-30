@@ -1,4 +1,5 @@
-let user = {
+let user = [
+ {
     "username": "sin",
     "id": 123456,
     "name": "Sinatra",
@@ -18,7 +19,11 @@ let user = {
       "bs": "Creating timeless music"
     }
   }
+]
 //   console.log(user);
 // console.log(user.username);
 // console.log(user.id);
- 
+ for (const key of user) {
+  console.log(key)
+  
+ }

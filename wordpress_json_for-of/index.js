@@ -1,4 +1,5 @@
-let wordpress = {
+let wordpress = [
+{
     "id": 1,
     "date": "2023-04-14T01:24:32",
     "title": {
@@ -32,8 +33,14 @@ let wordpress = {
       ]
     }
   }
-  console.log(wordpress);
-console.log(wordpress.id);
-console.log(wordpress.date);
-console.log(wordpress.title);
-console.log(wordpress.title.rendered);
+]
+// 
+//   console.log(wordpress);
+// console.log(wordpress.id);
+// console.log(wordpress.date);
+// console.log(wordpress.title);
+// console.log(wordpress.title.rendered);
+for(propty of wordpress){
+  console.log(propty)
+  console.log(wordpress[propty]);
+}

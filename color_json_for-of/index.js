@@ -1,6 +1,4 @@
-let colorList = {
- 
-  "colors": [
+let colors=[
     {
       "color": "black",
       "category": "hue",
@@ -55,13 +53,13 @@ let colorList = {
       }
     }
   ]
-}
+
 
 // console.log(colorList.colors[1]);
 // console.log(colorList.colors[2].type);
 // console.log(colorList.colors[3].code);
 // console.log(colorList.colors[4].code.rgba);
 // console.log(colorList.colors[5].code.hex);
-for(propty  of colorList.colors){
+for(propty  of colors){
   console.log(propty);
 }

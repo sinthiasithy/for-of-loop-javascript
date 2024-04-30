@@ -1,4 +1,4 @@
-let weather = 
+let weather = [
 {
     "message": "accurate",
     "cod": "200",
@@ -561,11 +561,13 @@ let weather =
       }
     ]
   }
+]
   // console.log(weather.list[0].name);
   // console.log(weather.list[1].main);
   // console.log(weather.list[1].main.pressure);
   // console.log(weather.list[5].coord.lat);
   // console.log(weather.list[4].coord.lat);
- for(propty of weather.list){
-  console.log(propty);
+ for(propty of weather){
+  console.log(propty)
+  console.log(weather[propty]);
 }

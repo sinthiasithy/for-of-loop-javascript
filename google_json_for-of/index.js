@@ -1,5 +1,4 @@
-let google = {
-    "results": [
+let google = [
       {
         "address_components": [
           {
@@ -40,7 +39,7 @@ let google = {
         ]
       }
     ]
-  };
+  ;
   
 
 //   console.log(google);
@@ -49,6 +48,6 @@ let google = {
 // console.log(google.results[0].place_id);
 // console.log(google.results[0].types);
 // console.log(google.results[0].geometry);
-for(propty  of google.results.address_components[0]){
+for(propty  of google){
   console.log(propty);
 }

@@ -1,5 +1,4 @@
-let Game = {
-    "games": [
+let Game = [
       {
         "title": "The Legend of Zelda: Breath of the Wild",
         "platform": "Nintendo Switch",
@@ -43,7 +42,7 @@ let Game = {
         "description": "The Witcher 3: Wild Hunt is an action role-playing game set in an open world. Players control Geralt of Rivia, a monster hunter known as a Witcher, as he searches for his missing adopted daughter and battles the mysterious Wild Hunt."
       }
     ]
-  }
+  
   
 //   console.log(Game);
 // console.log(Game.games);
@@ -53,6 +52,6 @@ let Game = {
 // console.log(Game.games[0].genre);
 // console.log(Game.games[0].release_date);
 // console.log(Game.games[0].developer);
-for(propty  of Game.games){
+for(propty  of Game){
   console.log(propty);
 }

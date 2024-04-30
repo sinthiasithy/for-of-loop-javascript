@@ -1,4 +1,5 @@
-let youtube = {
+let youtube = [
+{
     "kind": "youtube#videoListResponse",
     "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/O2VlKQolBD2M6bljZUwTwYQkDWg\"",
     "pageInfo": {
@@ -39,11 +40,13 @@ let youtube = {
         }
       }
     ]
-  };
+  }
+]
 //   console.log(youtube);
 // console.log(youtube.kind);
 // console.log(youtube.etag);
 // console.log(youtube.pageInfo);
- for(propty of youtube.items){
-   console.log(propty);
+ for(propty of youtube){
+   console.log(propty)
+   console.log(youtube[propty]);
  }

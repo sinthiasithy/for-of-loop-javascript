@@ -1,6 +1,5 @@
 
-let databass ={
-    "data": [
+let data = [
       {
         "name": "name",
         "id": "id",
@@ -32,11 +31,18 @@ let databass ={
         "city": "Tokyo"
       }
     ]
-  }
+  
 //   console.log(databass);
 // console.log(databass.data[3].id);
 // console.log(databass.data[1].name);
-// console.log(databass.data[4].city)
-for(propty of databass.data){
-  console.log(propty);
+// // console.log(databass.data[4].city)
+// for(propty of databass.data){
+//   console.log(propty);
+// }
+// for(propty of databass.data){
+//   console.log(databass[propty]);
+// }
+for (const key of data) {
+  console.log(key)
+  
 }
